@@ -1,0 +1,19 @@
+<?php
+
+$fp = fsockopen("www.ows-sz.de", 80, $errno, $errstr, 30);
+if (!$fp) {
+    echo "$errstr ($errno)
+n";
+} else {
+    $out = "GET /onlinestatus HTTP/1.1\r\n";
+    $out .= "Host: www.ows-sz.de\n";
+    $out .= "Connection: Close\r\n\r\n";
+    fwrite($fp, $out);
+    while (!feof($fp)) {
+        echo fgets($fp, 128);
+    }
+    fclose($fp);
+}
+
+
+?>

@@ -1,0 +1,20 @@
+
+<e:BoxInfo xmlns:e="http://juis.ows-sz.de/updateinfo" xmlns:q="http://juis.ows-sz.de/request">
+<q:Name>Fon W48</q:Name>
+<q:HW>999</q:HW>
+<q:Major>1</q:Major>
+<q:Minor>0</q:Minor>
+<q:Patch>0</q:Patch>
+<q:Buildnumber>00001</q:Buildnumber>
+<q:Buildtype>1</q:Buildtype>
+<q:Serial>C80E146F4B55</q:Serial>
+<q:OEM>ows</q:OEM>
+<q:Lang>de</q:Lang>
+<q:Country>049</q:Country>
+<q:Annex>Ohne</q:Annex>
+<q:Flag>crashreport</q:Flag>
+<q:Flag>avm_acs</q:Flag>
+<q:Flag>mesh_repeater</q:Flag>
+<q:UpdateConfig>2</q:UpdateConfig>
+<q:Provider>oma_ipclient</q:Provider>
+<q:ProviderName></q:ProviderName></e:BoxInfo>

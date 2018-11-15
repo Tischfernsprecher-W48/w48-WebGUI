@@ -1,0 +1,15 @@
+
+<j:BoxInfo xmlns:j="http://jason.ows-sz.de/updatecheck/">
+<j:Name>Fon W48</j:Name>
+<j:HW>999</j:HW>
+<j:Version>999.01.00-00001</j:Version>
+<j:Revision>00001</j:Revision>
+<j:Serial>3810D51E2BD6</j:Serial>
+<j:OEM>avm</j:OEM>
+<j:Lang>de</j:Lang>
+<j:Annex>Ohne</j:Annex>
+<j:Country>049</j:Country>
+<j:Flag>crashreport</j:Flag>
+<j:Flag>mesh_repeater</j:Flag>
+<j:UpdateConfig>2</j:UpdateConfig>
+</j:BoxInfo>
